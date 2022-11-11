@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "T4sJDB4tdVYdI9SBgyX28VCV8Rd8Kf1qJL+a+K688RSMK1B0gkTevRxQZF17CKzSdBcD8qTFeUs2NxMsg3xPSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matas K\\Downloads\\RedditCloneAssignmentDNP-master\\RedditCloneAssignmentDNP-master\\HttpClients\\HttpClients.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matas K\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
+    "C:\\Users\\Matas K\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
+    "C:\\Users\\Matas K\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Matas K\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
+    "C:\\Users\\Matas K\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Matas K\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Matas K\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

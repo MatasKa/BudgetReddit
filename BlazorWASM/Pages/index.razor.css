@@ -1,0 +1,73 @@
+
+.body{
+    font-family: sans-serif;
+    font-size: 0.7em;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    border-color: black;
+    margin-top: 50px;
+    padding-top: 70px;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 90%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.styled-table thead tr {
+    background-color: #ff6f00;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ff6f00;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #ff6f00;
+}
+a{
+
+    text-decoration:none;
+    color: #212529;
+    line-height: 1;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 10px;
+    color: #212529;
+}
+h4 {
+    font-family: sans-serif;
+    margin: 10px;
+    color: #212529;
+}
+.underline {
+    padding-bottom: 2px;
+    --bg-h: 2px;
+}
+a {
+    background: linear-gradient(0deg, #ff4700, #009879) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+}
+a:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+}

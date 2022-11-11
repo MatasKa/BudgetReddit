@@ -1,0 +1,21 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Tadass",
+      "Password": "123456"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Tadass",
+        "Password": "123456"
+      },
+      "Title": "How to uninstall minecraft",
+      "Body": "please help!!1!"
+    }
+  ]
+}
