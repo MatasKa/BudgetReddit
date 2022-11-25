@@ -1,6 +1,5 @@
 using System.ComponentModel.DataAnnotations;
 using Application.LogicInterfaces;
-using FileData;
 using SharedDomain;
 using SharedDomain.DTOs;
 
@@ -23,14 +22,14 @@ public class AuthServices : IAuthService
         IEnumerable<User> tempUsers = await userLogic.GetAsync(dto);
         users = tempUsers.ToList();
     }
-    
+
 
     public Task<User> ValidateUser(string username, string password)
     {
         LoadUsersIntoList();
-        User? existingUser = users.FirstOrDefault(u => 
+        User? existingUser = users.FirstOrDefault(u =>
             u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
-        
+
         if (existingUser == null)
         {
             throw new Exception("User not found");
@@ -43,30 +42,4 @@ public class AuthServices : IAuthService
 
         return Task.FromResult(existingUser);
     }
-
-    //Not used now
-    
-    /*
-    public Task RegisterUser(User user)
-    {
-        LoadUsersIntoList();
-
-        if (string.IsNullOrEmpty(user.UserName))
-        {
-            throw new ValidationException("Username cannot be null");
-        }
-
-        if (string.IsNullOrEmpty(user.Password))
-        {
-            throw new ValidationException("Password cannot be null");
-        }
-        // Do more user info validation here
-        
-        // save to persistence instead of list
-        
-        users.Add(user);
-        
-        return Task.CompletedTask;
-    }
-    */
 }

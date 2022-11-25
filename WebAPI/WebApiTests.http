@@ -1,8 +1,7 @@
-// log in as Mateusz
 POST https://localhost:7256/auth/login
 Content-Type: application/json
 
-{ "Username" : "trmo", "Password" : "onetwo3FOUR" }
+{ "Username" : "try", "Password" : "123456" }
 
 
 ###

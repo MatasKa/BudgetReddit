@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "drc2+BGF1YPhj1wdA0Kh7aBDOnrC6iAy7Z1Bla4QMuMxzqU4A+x7Oc83oXb4txYeVctYTQG/2mrXsmwXzSmBTA==",
+  "dgSpecHash": "3ES+1YF8N1TfrknIrpQcSSs54GNcwic0/fWGDMma33RfWfig+NjMsHs0QuSmtKOn/Cehh8SSHfoc83qUnSjR/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matas K\\Downloads\\RedditCloneAssignmentDNP-master\\RedditCloneAssignmentDNP-master\\BlazorWASM\\BlazorWASM.csproj",
+  "projectFilePath": "C:\\Users\\Matas K\\Desktop\\DNP\\BudgetReddit\\BlazorWASM\\BlazorWASM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matas K\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\Matas K\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",

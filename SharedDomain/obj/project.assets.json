@@ -290,11 +290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matas K\\Downloads\\RedditCloneAssignmentDNP-master\\RedditCloneAssignmentDNP-master\\SharedDomain\\SharedDomain.csproj",
+      "projectUniqueName": "C:\\Users\\Matas K\\Desktop\\DNP\\BudgetReddit\\SharedDomain\\SharedDomain.csproj",
       "projectName": "SharedDomain",
-      "projectPath": "C:\\Users\\Matas K\\Downloads\\RedditCloneAssignmentDNP-master\\RedditCloneAssignmentDNP-master\\SharedDomain\\SharedDomain.csproj",
+      "projectPath": "C:\\Users\\Matas K\\Desktop\\DNP\\BudgetReddit\\SharedDomain\\SharedDomain.csproj",
       "packagesPath": "C:\\Users\\Matas K\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matas K\\Downloads\\RedditCloneAssignmentDNP-master\\RedditCloneAssignmentDNP-master\\SharedDomain\\obj\\",
+      "outputPath": "C:\\Users\\Matas K\\Desktop\\DNP\\BudgetReddit\\SharedDomain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matas K\\AppData\\Roaming\\NuGet\\NuGet.Config"
